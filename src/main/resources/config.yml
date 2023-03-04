@@ -1,0 +1,39 @@
+prefix: "&f&lBright &8» "
+noPerms: "&cYou do not have permission to execute this command!"
+notEnoughArgs: "&cYou do not have enough arguments!"
+reloadMessage: '&aSuccess! &fReloaded the plugin configuration.'
+
+player-flyOn-msg: '&f&lBright &8» &cYou were already flying, it is now disabled.'
+player-flyOff-msg: '&f&lBright &8» &aSuccessfully enabled your fly.'
+player-survival-msg: '&f&lBright &8» &aSuccessfully set your gamemode to &a&lSURVIVAL&a.'
+player-inSurvival-msg: '&f&lBright &8» &cYou are already in &c&lSURVIVAL&c.'
+player-target-Survival-msg1: '&f&lBright &8» &aSuccessfully set gamemode of '
+player-target-Survival-msg2: '&ato &a&lSURVIVAL&a.'
+target-Survival-msg: '&ahas set your gamemode to &a&lSURVIVAL&a.'
+target-inSurvival-msg: ' &cis already in survival.'
+
+
+player-creative-msg: '&f&lBright &8» &aSuccessfully set your gamemode to &a&lCREATIVE&a.'
+player-inCreative-msg: '&f&lBright &8» &cYou are already in &c&lCREATIVE&c.'
+player-target-Creative-msg1: '&f&lBright &8» &aSuccessfully set gamemode of '
+player-target-Creative-msg2: '&ato &a&lCREATIVE&a.'
+target-Creative-msg: '&ahas set your gamemode to &a&lCREATIVE&a.'
+target-inCreative-msg: ' &cis already in creative.'
+
+joinMessage: '&f&lBright &8» &fWelcome to the server '
+joinMessage-2: '&f! &fWe hope you enjoy your stay here.'
+
+chatClearMessage: '&aChat has been successfully cleared!'
+
+aboutPlugin1: '&8-     &6Bright Plugin Information     &8-'
+aboutPlugin2: '&eHelp: &f/bright help - Helps you access this help message.'
+aboutPlugin3: '&eReload: &f/bright reload - Reloads the config.yml file.'
+aboutPlugin4: '&eFly: &f/fly - Enables fly.'
+aboutPlugin5: '&eClear Chat: &f/cc - Clears chat.'
+aboutPlugin6: '&eBroadcast: &f/bc <message> - Broadcasts a message to the server.'
+aboutPlugin7: '&eSet Spawn: &f/setspawn - Sets a spawn.'
+aboutPlugin8: '&eSpawn: &f/spawn - Sends you to spawn.'
+
+# NOTES
+
+# p.sendMessage((ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("prefix")))) RELATES TO LINE 1

@@ -1,0 +1,38 @@
+name: Bright
+version: '${project.version}'
+main: me.bright.bright.Bright
+api-version: 1.19
+commands:
+  setspawn:
+    description: Set the spawn of your current location!
+    usage: /<command>
+  spawn:
+    description: Teleports you to spawn!
+    usage: /<command>
+  brightreload:
+    description: Reloads the config.
+    usage: /<command>
+  fly:
+    description: Makes the targetted argument or player fly.
+    usage: /fly [<player>]
+  gms:
+    description: Sets your gamemode to survival.
+    usage: /<command>
+  gmc:
+    description: Sets your gamemode to creative.
+    usage: /<command>
+  broadcast:
+    description: Broadcasts a message in chat.
+    usage: /broadcast <text>
+  bc:
+    description: Broadcasts a message in chat.
+    usage: /broadcast <text>
+  clearchat:
+    description: Clears the chat.
+    usage: /<command>
+  cc:
+    description: Clears the chat.
+    usage: /<command>
+  bright:
+    description: Provides you will all needed information.
+    usage: /bright <text>
